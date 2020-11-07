@@ -1,0 +1,66 @@
+/* Web Font
+ * Noto Sans Japanese (Japanese)
+ */
+@import url(//fonts.googleapis.com/earlyaccess/notosansjapanese.css);
+
+* {
+  letter-spacing: .1em;
+  /*text-align: justify;*/
+  text-align: text-left;
+}
+
+.jumbotron {
+  background-image: url("../images/S__11436038.jpg");
+  background-size: cover;
+  background-position: center 35%;
+  height: 100vh;
+}
+
+body {
+  font-size: .875rem;
+  font-family: 'Lato', 'Noto Sans JP', 'ヒラギノ角ゴ ProN', 'Hiragino Kaku Gothic ProN', 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', 'MS PGothic', sans-serif;
+  line-height: 1.65;
+}
+
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+  line-height: 1.5;
+}
+
+.head-title {
+  color: #fff;
+}
+
+.header-sns {
+  color: #fff;
+}
+.header-sns:hover {
+  color: #ccc;
+}
+
+main a {
+  color: #333;
+}
+main a:hover {
+  color: #777;
+  text-decoration: none;
+}
+
+footer a {
+  color: #333;
+}
+footer a:hover {
+  color: #777;
+  text-decoration: none;
+}
+
+.copyright-color {
+  color: #fff;
+}
+
+.copyright-anchor {
+  color: #fff;
+}
+.copyright-anchor:hover {
+  color: #ccc;
+  text-decoration: none;
+}
